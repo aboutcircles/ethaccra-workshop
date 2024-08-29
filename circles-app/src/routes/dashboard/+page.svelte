@@ -46,7 +46,7 @@
 
 <h2>You have {contacts.length} contacts</h2>
     <p>
-        You can <button on:click={() => goto("/invite")}>invite</button> others to Circles, or
+        You can <button on:click={() => goto("/invite/")}>invite</button> others to Circles, or
         <button on:click={() => goto("/trust/add")}>trust</button> someone who has already joined.
     </p>
 {#if contacts.length > 0}
